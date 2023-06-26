@@ -18,6 +18,7 @@
            (:remove "sudo pacman -R --noconfirm")
            (:update "sudo pacman -Syu --noconfirm"))
  ("paru" (:command "paru")
+         :external
          (:search "paru -Ssq")
          (:list "paru -Q")
          (:install "paru -S --noconfirm")
@@ -30,12 +31,14 @@
          (:remove "sudo xbps-remove -R")
          (:update "sudo xbps-install -Su"))
  ("flatpak" (:command "flatpak")
+            :external
             (:search "flatpak search")
             (:list "flatpak list")
             (:install "sudo flatpak install")
             (:remove "sudo flatpak uninstall")
             (:update "sudo flatpak update"))
  ("snap" (:command "snap")
+         :external
          (:search "snap find")
          (:list "snap list")
          (:install "snap install")
