@@ -1,10 +1,10 @@
-# db
+# crater-db
 
-A database of known packages and package sources
+A database of known packages and package sources for Crater.
 
-## Sources
+## [Sources](sources.lisp)
 
-A source in [sources.lisp]() can be defined as shown:
+A source can be defined as shown:
 
      ("xbps" (:command "xbps-query") ; Command to test whether xbps is available
              (:search "xbps-query -Rs") ; Command to search for packages
@@ -25,9 +25,9 @@ An external source needs to be explicitly marked as "external":
 
 **PS:** External sources are only used when explicitly mentioned against a package, while the regular sources are automatically used unless specified not to be used.
 
-## Packages
+## [Packages](packages.lisp)
 
-Entries in the [packages.lisp]() file could look as shown:
+Entries in the file could look as shown:
 
     (
         ;; "fd" is available on 'apt' as "fd-find", as "fd" on other known sources
