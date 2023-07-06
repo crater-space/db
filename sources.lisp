@@ -26,7 +26,7 @@
          (:UPDATE "paru -Syu --noconfirm"))
  ("xbps" (:COMMAND "xbps-query")
          (:SEARCH "xbps-query -Rs")
-         (:LIST "xbps-query -s")
+         (:LIST "xbps-query -l")
          (:INSTALL "sudo xbps-install -S")
          (:REMOVE "sudo xbps-remove -R")
          (:UPDATE "sudo xbps-install -Su"))
