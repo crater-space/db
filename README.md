@@ -29,6 +29,38 @@ An external source needs to be explicitly marked as "external":
 
 **PS:** External sources are only used when explicitly mentioned against a package, while the regular sources are automatically used unless specified not to be used.
 
+### Configured Sources
+
+The following platforms are directly supported along with their package managers:
+
+- Adélie Linux (Coming soon)
+- AlmaLinux (Coming soon)
+- Alpine Linux (Coming soon)
+- ALT Linux (Coming soon)
+- Amazon Linux (Coming soon)
+- [pacman](https://wiki.archlinux.org/title/pacman) and [paru](https://github.com/Morganamilo/paru) for [Arch Linux](https://archlinux.org)
+- CentOS (Coming soon)
+- [apt](https://wiki.debian.org/Apt) for [Debian](https://www.debian.org), [Ubuntu](https://ubuntu.com), [Linux Mint](https://linuxmint.com) and derivatives
+- [dnf](https://docs.fedoraproject.org/en-US/quick-docs/dnf) for [Fedora](https://fedoraproject.org) and derivatives
+- KaOS (Coming soon)
+- [Homebrew](https://brew.sh) and [Cask](https://github.com/Homebrew/homebrew-cask) for [macOS](https://www.apple.com/macos)
+- Mageia (Coming soon)
+- OpenMandriva (Coming soon)
+- OpenSUSE (Coming soon)
+- OpenWrt (Coming soon)
+- Oracle Linux (Coming soon)
+- PCLinuxOS (Coming soon)
+- Red Hat Enterprise Linux (Coming soon)
+- Rocky Linux (Coming soon)
+- Slackware (Coming soon)
+- Solus (Coming soon)
+- [xbps](https://docs.voidlinux.org/xbps/index.html) for [Void Linux](https://voidlinux.org)
+
+There are also the following platform-independent sources:
+
+- [Flatpak](https://flatpak.org)
+- [Snap](https://snapcraft.io)
+
 ## [Packages](packages.lisp)
 
 Entries in the file could look as shown:
