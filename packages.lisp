@@ -10,6 +10,10 @@
               (:XBPS "pipewire" "alsa-pipewire" "libspa-bluetooth")
               (:BREW)
               (:CASK)))
+ ("r" ((:APT "r-base")
+       (:DNF "R")
+       (:XBPS "R"))
+      ("R"))
  ("imaginary-package" nil
                       nil
                       ("echo \"These are pre-scripts\"")
