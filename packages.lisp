@@ -9,7 +9,12 @@
               (:PACMAN "pipewire" "pipewire-pulse" "pipewire-alsa")
               (:XBPS "pipewire" "alsa-pipewire" "libspa-bluetooth")
               (:BREW)
-              (:CASK)))
+              (:CASK))
+             nil
+             nil
+             ("sudo mkdir -p /etc/pipewire/pipewire.conf.d"
+              "sudo ln -s /usr/share/examples/wireplumber/10-wireplumber.conf /etc/pipewire/pipewire.conf.d/"
+              "sudo ln -s /usr/share/examples/pipewire/20-pipewire-pulse.conf /etc/pipewire/pipewire.conf.d/"))
  ("r" ((:APT "r-base")
        (:DNF "R")
        (:XBPS "R"))
