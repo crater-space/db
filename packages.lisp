@@ -4,6 +4,8 @@
           ("steam-powered"))
  ("android-tools" ((:APT "android-platform-system-core")
                    (:CASK "android-platform-tools")))
+ ("nodejs" ((:BREW "node"))
+           ("node"))
  ("pipewire" ((:APT "pipewire" "pipewire-pulse" "pipewire-alsa")
               (:DNF "pipewire" "pipewire-alsa")
               (:PACMAN "pipewire" "pipewire-pulse" "pipewire-alsa")
