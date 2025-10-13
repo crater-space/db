@@ -21,6 +21,11 @@
        (:DNF "R")
        (:XBPS "R"))
       ("R"))
+ ("xfce4" ((:APT "xfce4")
+           (:DNF "xfce4-session" "xfce4-panel" "xfdesktop4" "thunar" "xfce4-terminal")
+           (:PACMAN "xfce4 xfce4-goodies")
+           (:XBPS "xfce4"))
+          ("xfce"))
  ("imaginary-package" nil
                       nil
                       ("echo \"These are pre-scripts\"")
