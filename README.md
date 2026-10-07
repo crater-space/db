@@ -35,7 +35,7 @@ The following platforms are directly supported along with their package managers
 
 - Adélie Linux (Coming soon)
 - AlmaLinux (Coming soon)
-- Alpine Linux (Coming soon)
+- [apk](https://wiki.alpinelinux.org/wiki/Alpine_Package_Keeper) for Alpine Linux
 - ALT Linux (Coming soon)
 - Amazon Linux (Coming soon)
 - [pacman](https://wiki.archlinux.org/title/pacman) and [paru](https://github.com/Morganamilo/paru) for [Arch Linux](https://archlinux.org)
