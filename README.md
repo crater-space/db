@@ -46,7 +46,7 @@ The following platforms are directly supported along with their package managers
 - [Homebrew](https://brew.sh) and [Cask](https://github.com/Homebrew/homebrew-cask) for [macOS](https://www.apple.com/macos)
 - Mageia (Coming soon)
 - OpenMandriva (Coming soon)
-- OpenSUSE (Coming soon)
+- [zypper](https://documentation.suse.com/smart/systems-management/html/concept-zypper/index.html) and [opi](https://github.com/openSUSE/opi) for openSUSE
 - OpenWrt (Coming soon)
 - Oracle Linux (Coming soon)
 - PCLinuxOS (Coming soon)
