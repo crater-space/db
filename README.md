@@ -53,7 +53,7 @@ The following platforms are directly supported along with their package managers
 - Red Hat Enterprise Linux (Coming soon)
 - Rocky Linux (Coming soon)
 - Slackware (Coming soon)
-- Solus (Coming soon)
+- [eopkg](https://help.getsol.us/docs/user/package-management/basics) for Solus
 - [xbps](https://docs.voidlinux.org/xbps/index.html) for [Void Linux](https://voidlinux.org)
 
 There are also the following platform-independent sources:
